@@ -8,7 +8,11 @@
     "scheme": "moncodederoute",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.brianjordy.MonCodeDeRoute",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -51,6 +55,12 @@
     ],
     "experiments": {
       "typedRoutes": false
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b7b8210d-0be1-4b8d-ad13-885ac33e9a05"
+      }
     }
   }
 }
